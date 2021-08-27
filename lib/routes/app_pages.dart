@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:getx/models/post.dart';
 import 'package:getx/pages/detail/detail_bindling.dart';
 import 'package:getx/pages/detail/detail_page.dart';
 import 'package:getx/pages/feed/feed_binding.dart';
@@ -18,6 +19,7 @@ class AppPages {
     GetPage(
         name: AppRoutes.FEED, page: () => FeedPage(), binding: FeedBinding()),
     GetPage(
+        arguments: Post,
         name: AppRoutes.DETAIL,
         page: () => DetailPage(),
         binding: DetailBinding()),
