@@ -1,5 +1,11 @@
 # getx
 
+
+
+https://user-images.githubusercontent.com/28990749/131188504-89b63dc1-fca8-4ad3-b843-36c3bd737603.mov
+
+
+
 A new Flutter project.
 
 ## Getting Started
